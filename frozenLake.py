@@ -3,6 +3,8 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 
+''' Reinforced learning with the gym library '''
+
 # Create environment
 env = gym.make("FrozenLake-v1", is_slippery=False)
 env.reset()
