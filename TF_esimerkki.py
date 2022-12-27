@@ -4,6 +4,8 @@ import pickle
 from keras import datasets, layers, models
 import matplotlib.pyplot as plt
 
+''' Not my implementation '''
+
 #Loading data
 (train_images, train_labels), (test_images, test_labels) = datasets.cifar10.load_data()
 
