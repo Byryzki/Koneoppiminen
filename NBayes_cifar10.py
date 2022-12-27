@@ -6,6 +6,8 @@ import random
 import math
 from statistics import NormalDist
 
+''' Naive Bayesian with CIFAR-10 '''
+
 gt = []
 pred = []
 
