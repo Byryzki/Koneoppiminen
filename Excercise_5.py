@@ -4,6 +4,8 @@ import pickle
 from keras import datasets, layers, models, optimizers, metrics, losses
 import matplotlib.pyplot as plt
 
+''' Convolution Neural Network with TensorFlow and CIFAR-10 '''
+
 #Loading data
 (train_images, train_labels), (test_images, test_labels) = datasets.cifar10.load_data()
 
