@@ -1,3 +1,4 @@
+''' An attempt to fit linear regression to data '''
 #Linear solver
 def my_linfit(x,y):
     a = (sum(y*x)/sum(x*x))-(sum(x)*sum(y+(sum(x*y)/sum(x*x))))/(sum(x)-sum(x*x))
