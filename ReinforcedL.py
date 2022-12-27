@@ -5,6 +5,8 @@ import os
 import matplotlib as plt
 from matplotlib import pyplot
 
+''' Reinforced learning with the gym library '''
+
 env = gym.make("FrozenLake-v1", is_slippery=False)
 env.reset()
 #env.render()
